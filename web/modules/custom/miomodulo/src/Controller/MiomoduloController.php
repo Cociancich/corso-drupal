@@ -14,7 +14,7 @@ class MiomoduloController extends ControllerBase {
     'nomee' => 'nicola',
   ];
   $nome = $miavar['test']['nome'] ?? 'no nome';
-  dump($nome);
+  // dump($nome);
   $msg = 'Render html Mia pagina';
 
   return [
