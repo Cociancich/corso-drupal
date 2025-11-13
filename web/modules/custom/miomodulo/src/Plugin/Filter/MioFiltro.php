@@ -10,14 +10,13 @@
   *   id = "mio_filtro_custom",
   *   title = @Translation("Mio filtro custom"),
   *   category = @Translation("Corso Drupal"),
-  *   type = Drupal\filter\Plugin\FilterInterface::TYPE_MARKUP_LANGUAGE
+  *   type = Drupal\filter\Plugin\FilterInterface::TYPE_TRANSFORM_IRREVERSIBLE
   * )
   */
 
   class MioFiltro extends FilterBase {
 
     public function process ($text, $langcode) {
-      dump($text);
       $miastringa = $text ?? '';
       $miastringa = str_replace('[hi]', '<strong>Ciao dal mio filtro</strong>', $miastringa);
 
