@@ -5,3 +5,11 @@ miomodulo.miapagina:
     _title: 'Titolo Mia pagina custom'
   requirements:
     _permission: 'access content'
+
+miomodulo.mioform:
+  path: '/miomodulo/mio-form'
+  defaults:
+    _form: '\Drupal\miomodulo\Form\MioForm'
+    _title: 'Form di esempio'
+  requirements:
+    _permission: 'access content'

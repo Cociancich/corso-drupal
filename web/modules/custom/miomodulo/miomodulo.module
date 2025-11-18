@@ -117,6 +117,7 @@ function miomodulo_theme() {
       'variables' => [
         'now' => NULL,
         'payload' => NULL,
+        'form' => NULL,
        ],
        'template' => 'block/miomodulo-mioblocco'
     ],
